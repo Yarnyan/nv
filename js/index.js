@@ -1,4 +1,3 @@
-let linkGlav = document.querySelector('.linkGlav');
 let linkAboutme = document.querySelector('.linkAboutme');
 let linkContent = document.querySelector('.linkContent');
 let linkContact = document.querySelector('.linkContact');
@@ -24,12 +23,6 @@ $(document).ready(function() {
     $('.header__burger, .header__menu').toggleClass('active');
     $('body').toggleClass("lock");
   });
-});
-
-linkGlav.addEventListener("click", () => {
-  $('.header__burger, .header__menu').removeClass('active');
-  $('body').removeClass("lock");
-  window.scroll(0, 0);
 });
 
 linkAboutme.addEventListener("click", () => {
