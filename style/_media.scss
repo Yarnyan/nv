@@ -91,6 +91,15 @@
     .container__hello {
         height: 600px !important; 
     }
+    .container__hello-image {
+        display: none;
+    }
+    .container__hello-text {
+        line-height: 35px !important;
+        font-size: 15px !important;
+        text-align: center !important;
+        max-width: 100% !important;
+    }
     .text {
         line-height: 35px !important;
         font-size: 15px !important;
@@ -116,8 +125,5 @@
     }
     .container__aboutme:before {
         top: 669px !important;
-    }
-    .container__aboutme {
-        height: 545px;
     }
 }
